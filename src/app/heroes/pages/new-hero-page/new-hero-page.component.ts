@@ -61,7 +61,7 @@ export class NewHeroPageComponent implements OnInit{
       this.heroesService.updateHero( this.currentHero )
         .subscribe( hero => {
           // TODO: mostrar snackbar
-          this.showSnackBar(`${hero.superhero} actualizado!`)
+          this.showSnackBar(`${hero.superhero} actualizado!`) 
         });
 
         return;
@@ -70,7 +70,7 @@ export class NewHeroPageComponent implements OnInit{
     this.heroesService.postHero(this.currentHero)
       .subscribe( hero => {
         // TODO: mostrar snackbar y navegar a /heroes/edit/hero.id
-        this.router.navigate(['/heroes/edit', hero.id])
+        this.router.navigate(['/heroes/list', hero.id])
         this.showSnackBar(`${hero.superhero} héroe creado!`)
       });
 

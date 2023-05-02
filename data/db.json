@@ -2,18 +2,50 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
-      "email": "john.due@gmail.com"
+        "user": "John Doe",
+        "email": "john.due@gmail.com"
     }
   ],
   "heroes": [
     {
       "id": "dc-batman",
-      "superhero": "Batman Perrote",
+      "superhero": "Batman",
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
       "characters": "Bruce Wayne"
+    },
+    {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El"
+    },
+    {
+      "id": "dc-flash",
+      "superhero": "Flash",
+      "publisher": "DC Comics",
+      "alter_ego": "Jay Garrick",
+      "first_appearance": "Flash Comics #1",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+    },
+    {
+      "id": "dc-green",
+      "superhero": "Green Lantern",
+      "publisher": "DC Comics",
+      "alter_ego": "Alan Scott",
+      "first_appearance": "All-American Comics #16",
+      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+    },
+    {
+      "id": "dc-arrow",
+      "superhero": "Green Arrow",
+      "publisher": "DC Comics",
+      "alter_ego": "Oliver Queen",
+      "first_appearance": "More Fun Comics #73",
+      "characters": "Oliver Queen"
     },
     {
       "id": "dc-wonder",
@@ -120,29 +152,22 @@
       "characters": "Clinton Francis Barton"
     },
     {
-      "id": "marvel-cyclops",
-      "superhero": "Cyclops",
+      "id": "8m2-y1F",
+      "superhero": "Cloud Strife",
       "publisher": "Marvel Comics",
-      "alter_ego": "Scott Summers",
-      "first_appearance": "X-Men #1",
-      "characters": "Scott Summers"
+      "alter_ego": "Zack Fair",
+      "first_appearance": "Final Fantasy 7",
+      "characters": "Soldier first class, Soldier ",
+      "alt_img": "https://i.ytimg.com/vi/ffF2AH-Jp4o/maxresdefault.jpg"
     },
     {
-      "id": "marvel-silver",
-      "superhero": "Silver Surfer",
+      "id": "WOwr4W6",
+      "superhero": "Tifa Lockhart",
       "publisher": "Marvel Comics",
-      "alter_ego": "Norrin Radd",
-      "first_appearance": "The Fantastic Four #48",
-      "characters": "Norrin Radd"
-    },
-    {
-      "id": "f1CiEDb",
-      "superhero": "Cloud",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Cloud Strife",
-      "first_appearance": "Final Fantasy 7 (1998)",
-      "characters": "Zack Fair",
-      "alt_img": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/04/cloud-strife-ff7remake.jpg"
+      "alter_ego": "Tifa",
+      "first_appearance": "Final Fnatasy 7 ",
+      "characters": "N/A",
+      "alt_img": "https://i.pinimg.com/originals/5c/df/ef/5cdfef996cebc455d59571e9d224d24a.jpg"
     }
   ]
 }
